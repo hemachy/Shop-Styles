@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root{
+    --primaryColor:#151A32;
+    --secondaryColor:#FF6F61;
+    --thirdColor: #FFFFFF;
+    --primaryFont:font-family: 'Josefin Sans', sans-serif;
+    --secondaryFont:font-family: 'Roboto', sans-serif;
+}
+/* COMMON CSS STARTS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,ul,li,a & span{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+/* TOPBAR STARTS  */
+#topbar{
+    background-color:var(--primaryColor);
+    padding: 12px 0 2px 0;
+}
+#topbar .col-5{
+    color: #FFFFFF;
+    }
+#topbar .col-5 p{
+    
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}   
+#topbar .col-5 p .arrow{
+    width: 20px;
+height: 20px;
+top: 15px;
+left: 300px;
+padding: 1.25px;
+
+}
+#topbar .col-5 p span{
+    color: var(--secondaryColor);
+}
+#topbar .col-7{
+    color: #FFFFFF; 
+    text-align: center;
+}
+#topbar .col-7{
+    text-align: right;
+}
+#topbar .col-7 ul li{
+    display: inline-block;
+    margin: 0 4px;
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 28px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+#topbar .col-7 ul li select{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: var(--thirdColor);
+    border-right: 1px solid white;
+    margin-right: 2px;
+    
+}
+#topbar .col-7 ul li select option{
+    background-color: var(--thirdColor);
+    color: var(--primaryColor);
+}
+#topbar .col-7 ul li a{
+    color: var(--thirdColor);
+}
+#topbar .col-7 ul li a:hover{
+    color: var(--secondaryColor);
+    transition: 0.45s;
+}
+/* TOPBAR ENDS */
+/* header starts here */
+.myNavbarLg #myNav .menus li a{
+    color: var(--blackColor);
+    
+    }
+    .myNavbarLg #myNav .menus li a{
+    font-family: var(--primaryFont);
+    font-weight: 400;
+    font-size: 16px;
+    }
+    
+    
+    .myNavbarLg #myNav .menus li a:hover{
+        color: var(--secondaryColor);
+        transition: .35s;
+    }
+    .myNavbarLg #myNav .menus li {
+       margin:0 8px 0 8px ;
+        position: relative;
+    }
+    .myNavbarLg #myNav .menus li .list li{
+    border: 1px solid white;
+    text-align: left;
+    }
+    .myNavbarLg #myNav .menus li .list li a{
+        color: #F1F3F4;
+        
+    }
+    .myNavbarLg #myNav .menus li .list{
+       position: absolute; 
+       width: 120px;
+       left: -25px;
+       margin-top: 30px;
+        opacity: 0;
+        visibility: hidden;
+        transition: .55s;
+        
+    }
+    .myNavbarLg #myNav .menus li a{
+        position: relative;
+    }
+    .myNavbarLg #myNav .menus li a span{
+        transform:translateY(10%) rotate(0deg)scale(.7);
+        transition: .55s;
+        display: block;
+        position: absolute;
+        right: -10px;
+        top: 10px;
+    }
+    .myNavbarLg #myNav .menus li:hover a span{
+        transform:translateY(10%) rotate(180deg);
+    }
+    
+    .myNavbarLg #myNav .menus li:hover .list{
+       margin-top: 40px;
+        opacity: 1;
+        visibility: visible;
+        
+    }
+     .myNavbarLg .iconGroup ul li{
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .myNavbarLg .iconGroup ul li a{
+        color: #151A32;
+    }
+    .myNavbarLg .iconGroup ul li{
+       font-size: 23px;
+        position: relative;
+    }
+    .myNavbarLg .iconGroup ul li .number{
+        font-size: 16px;
+        background-color: #FF6F61;
+        color: #fff;
+        width: 17px;
+        height: 17px;
+        line-height: 15px;
+        text-align: center;
+        border-radius: 80%;
+        position: absolute;
+        top: -5px;
+        left: 8px;
+    }
+    
+    /* header ends here */
+/* banner starts here */
+#banner .banner-slide{
+    height: 350px;
+}
+
+#banner .banner-slide .text{
+    color: #fff;
+    text-align: center;
+    margin-top: 120px;
+}
+#banner .banner-slide .text h2{
+    
+    font-family: Josefin Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+
+}
+#banner .banner-slide .text p{
+   
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+
+
+
+/* banner ends here */
+/* banner starts here */
+
+#bannerTwo{
+    margin:  50px 0 0 0;
+}
+#bannerTwo .col-7 h3{
+font-family: Josefin Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#bannerTwo .col-7 p{
+    
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#444444;
+    
+}
+#bannerTwo .col-7 p span{
+    color:var(--secondaryColor);
+
+}
+#bannerTwo .col-7 .price{
+    font-size: 20px;
+    font-weight: 600;
+}
+#bannerTwo .col-7 .price del{
+    font-size: 17px;
+    font-weight: 400;
+}
+#bannerTwo .col-7 .details .size{
+    display: inline-block;
+font-family: Josefin Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#bannerTwo .col-7  .details .color{
+    display: inline-block;
+font-family: Josefin Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#bannerTwo .col-7 .details .quantity{
+
+font-family: Josefin Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+#bannerTwo .col-7 .details .quantity form{
+    display: inline-block;
+}
+#bannerTwo .col-7 .details .quantity form .icon{
+    display: inline-block;
+}
+#bannerTwo .col-7 .details .quantity form .icon p span i{
+    display: inline-block;
+}
+
+#bannerTwo .col-5 img{
+    width: 450px;
+}
+#bannerTwo .col-5 .jackets ul li{
+display: inline-block;
+}
+
+
+#bannerTwo .col-7 form{
+        width: 300px;
+        text-align: center;
+        padding-top: 50px;
+        margin-top: -50px;
+        margin-left: -90px;
+        
+      }
+      
+      .value-button {
+        display: inline-block;
+        border: 1px solid #ddd;
+        margin: 0px;
+        width: 40px;
+        height: 20px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 11px 0;
+        background: #eee;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      .value-button:hover {
+        cursor: pointer;
+      }
+      
+      form #decrease {
+        margin-right: -4px;
+        border-radius: 8px 0 0 8px;
+      }
+      
+      form #increase {
+        margin-left: -2px;
+        border-radius: 0 8px 8px 0;
+      }
+      
+      form #input-wrap {
+        margin: 0px;
+        padding: 0px;
+      }
+      
+      input#number {
+        text-align: center;
+        border: none;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        margin: 4px 0 0 0;
+        padding: 0 0 6px 0;
+        width: 40px;
+        height: 25px;
+      }
+      
+      input[type=number]::-webkit-inner-spin-button,
+      input[type=number]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+      }
+      #bannerTwo .col-7 .para h6{
+        font-family: Josefin Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Josefin Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+      }
+      #bannerTwo .col-7 .icons{
+        text-align: right;
+      
+      }
+      #bannerTwo .col-7 .icons ul{
+        margin-top: -90px;
+      }
+      #bannerTwo .col-7 .icons ul li{
+      display: inline-block;
+      
+      }
+      #bannerTwo .col-7 .icons ul li a {
+        margin:0 5px;
+        color: #6b6a6a;
+      }
+      #bannerTwo .col-7 .icons ul li a :hover{
+        color: #151A32;
+        transition: .45s;
+      }
+
+/* bannertwo ends here */
+/* bannerthree starts here */
+
+#description{
+    margin: 130px 0 0 0;
+}
+#description .part{
+    text-align: center;
+}
+#description .part ul{
+    
+    background-color: #151A32;
+    display: inline-block;
+    margin: 20px 0;
+}
+#description .part ul li{
+    display: inline-block;
+   margin: 0 8px;
+   
+   
+}
+#description .part ul li a{
+    color: var(--thirdColor );
+    
+    
+font-family: Josefin Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+#description .part ul li:hover{
+    background-color: var(--secondaryColor);
+    transition: 0.35s;
+}
+#description .part-one p{
+
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: justified;
+
+}
+/* bannerthree ends here */
+/* bannerfour starts here */
+#product{
+    margin: 50px 0 0 0;
+}
+
+#product h3{
+text-align: center;
+font-family: Josefin Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: justified;
+margin: 20px 0;
+}
+#product .col-3 img{
+    margin: 10px 5px 20px 5px;
+}
+#product .col-3 p{
+    display: inline-block;
+    margin: 0 30px 0 0;
+font-family: Josefin Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#product .col-3 span{
+    color: var(--secondaryColor);
+}
+/* bannerfour ends here */
+/* email part starts here */
+#email{
+    background-color: #F1F3F4;
+    height: 180px;
+    margin: 30px 0 0 0 ;
+    
+}
+#email .col-6{
+    text-align: left;
+    margin: 30px 0 20px 0;
+
+}
+#email .col-6 h3{
+font-family: Josefin Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#email .col-6 p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#email .col-6 input{
+    background-color:  #FFFFFF;
+    margin-top: 20px;
+   margin-left: 20px;
+   width: 220px;
+   height: 40px;
+   border: none;
+}
+#email .col-6 button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin-left: 10px;
+    background-color: #FFFFFF;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+#email .col-6 button:hover{
+    background-color: var(--secondaryColor);
+    color: #F1F3F4;
+    transition: 0.35s;
+}
+
+/* email part ends here */
+/* footer  starts here */
+#footer{
+    background-color: #F1F3F4;
+}
+#footer .col-3 img{
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 2px 0 6px 0;
+}
+#footer .col-3 p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0 0 10px 0;
+
+}
+
+#footer .col-3 .logo li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+}
+#footer .col-3 .logo li span{
+    color: var(--primaryColor);
+}
+#footer .col-3 .logo li span:hover{
+    color: var(--secondaryColor);
+    transition: .35s;
+}
+#footer .col-2 h4{
+font-family: Josefin Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+margin: 20px 0 10px 0;
+
+}
+#footer .col-2 ul{
+    margin:  22px 0 8px 0;
+}
+#footer .col-2 ul li{
+    margin:4px 0  ;
+}
+#footer .col-2 ul li a{
+    color: var(--primaryColor);
+    margin: 4px 0 ;
+}
+#footer .col-2 ul li a:hover{
+    color: var(--secondaryColor);
+    transition: .40s ease-in-out;
+}
+#footer .col-3 h4{
+font-family: Josefin Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+margin: 25px 0 17px 0;
+}
+#footer .col-3 ul li a{
+   margin: 5px 0 2px 0;
+   color: var(--primaryColor);
+}
+#footer .col-3 ul li a:hover{
+   color: var(--secondaryColor);
+   transition: 0.30s;
+}
+
+/* footer  ends here */
+/* footer last part starts here */
+
+#last-part .col-6 p
+{
+    color: var(--primaryColor);
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#last-part .col-6 p span{
+    color:#FF6F61;
+}
+#last-part hr .col-6 a img{
+    margin-right: -100px;
+}
+/* footer last part ends here */
